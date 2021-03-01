@@ -1,0 +1,26 @@
+{
+    "name": "goldenraspberry/permission-acl",
+    "description": "a simple acl framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nova",
+            "email": "nova@365star.info"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Goldenraspberry\\Permissions\\Acl\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GoldenraspberryTest\\Permissions\\Acl\\": "test/"
+        }
+    }
+}
